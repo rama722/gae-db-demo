@@ -1,0 +1,5 @@
+runtime: nodejs18
+service: server
+entrypoint: node index.js
+env_variables:
+  GAE_DB_ADDRESS: "/cloudsql/gae-demo-project-422605:asia-south1:gae-db-demo"
